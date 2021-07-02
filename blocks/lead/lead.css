@@ -1,7 +1,11 @@
 .lead{
-  width: 76.9%;
-  margin: auto;
-  margin-top: 136px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 
 
@@ -9,7 +13,7 @@
   .lead{
     width: 320px;
     margin: 0;
-    margin-top: 68px;
+    margin-top: 48px;
   }
 }
 
@@ -39,3 +43,11 @@
 
   }
 }
+@media screen and (min-width: 1280px) {
+  .lead{
+    margin-top: 56px;
+  }
+  }
+}
+
+
