@@ -25,10 +25,11 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px){
   .lead__subtitle{
-    width: 640px;
+    max-width: 640px;
     font-size: 30px;
     line-height: 36px;
     margin-top: 32px;
+    margin-bottom: 0;
     text-align: center;
 
   }

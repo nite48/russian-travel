@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px){
   .place{
-    width: 720px;
+    max-width: 720px;
     margin-bottom: 73px;
     }
   .place:nth-child(5){
