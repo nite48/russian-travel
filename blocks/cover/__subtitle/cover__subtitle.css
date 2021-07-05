@@ -1,92 +1,36 @@
 .cover__subtitle{
-  max-width: 360px;
+  position: relative;
+  font-family: Inter, sans-serif; 
   font-style: normal;
   font-weight: normal;
-  font-size: 1.125rem;
-  line-height: 1.375rem;
-  margin: auto;
-  margin-top: 429px;
   text-align: center;
   color: #FFFFFF;
-  grid-column: 1/4;
-  grid-row: 1/4;
-  z-index: 3;
-  font-family: 'Inter'; 
-}
-
-  .cover:hover .cover__subtitle{
-  text-shadow: 0 -2px 0 #000000,
-  0 -2px 0 #000000,
-  0 2px 0 #000000,
-  0 2px 0 #000000,
-  -2px 0 0 #000000,
-  2px 0 0 #000000,
-  -2px 0 0 #000000,
-  2px 0 0 #000000,
-  -1px -2px 0 #000000,
-  1px -2px 0 #000000,
-  -1px 2px 0 #000000,
-  -2px -1px 0 #000000,
-  -2px -1px 0 #000000,
-  2px -1px 0 #000000,
-  -2px 1px 0 #000000,
-  2px 1px 0 #000000,
-  -2px -2px 0 #000000,
-  2px -2px 0 #000000,
-  -2px 2px 0 #000000,
-  2px 2px 0 #000000;
-}
-@media screen and (min-width: 320px) and (max-width: 425px){
-  .cover__subtitle{
-    width: 288px;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0;
-    margin:auto;
-    margin-top: 119px;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
     
-  } 
+  
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (max-width: 768px){
   .cover__subtitle{
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin: 0;
-    margin:auto;
-    margin-top: 199px;
+    max-width: 288px;
+    font-size:  0.875rem;
+    line-height: 1rem;
+    margin-top: 16px;
 
     
   }  
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 768px){
   .cover__subtitle{
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin: 0;
-    margin:auto;
-    margin-top: 299px;
+    max-width: 360px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    margin-top: 32px;
 
     
   }  
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
-  .cover__subtitle{
-    width: 360px;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    margin: 0;
-    margin:auto;
-    margin-top: 379px;
-
-    
-  } 
-}

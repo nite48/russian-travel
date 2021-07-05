@@ -1,11 +1,4 @@
-.place__link:hover{
-  opacity: 0.8;
-  text-decoration: none;
-
-}
-
 .place__link{
-  width: 456px;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
@@ -13,37 +6,30 @@
   margin-top: 50px;
   text-decoration-line: underline;
   color: #FFFFFF;
-  font-family: 'Inter'; 
+  margin: 0;
+  font-family: 'Inter' sans-serif; 
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px){
-  .place__link{
-    width: 288px;
-    font-size: 18px;
-    line-height: 22px;
+
+.place__link:hover{
+  animation: getIn 1s ease-in-out 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes getIn {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px){
-  .place__link{
-    width: 456px;
-    font-size: 18px;
-    line-height: 22px;
+@keyframes getOut {
+  from {
+    opacity: 0.5;
   }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px){
-  .place__link{
-    width: 456px;
-    font-size: 18px;
-    line-height: 22px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px){
-  .place__link{
-    width: 456px;
-    font-size: 18px;
-    line-height: 22px;
+  to {
+    opacity: 1;
   }
 }
