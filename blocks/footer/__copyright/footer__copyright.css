@@ -9,16 +9,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    .footer__copyright {
-        text-align: left;
-        margin-top:48px;
-        margin-bottom: 24px;
-    }
+  .footer__copyright {
+    text-align: left;
+    margin-top:48px;
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .footer__copyright {
-        text-align: right;
-        margin-top: 0;
-    }
+  .footer__copyright {
+    text-align: right;
+    margin-top: 0;
+  }
 }

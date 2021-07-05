@@ -1,9 +1,6 @@
 .place{
-  display: flex;
-  flex-direction: column;
   list-style: none;
   margin: 0;
-  list-style: none;
 }
 .place:last-child{
   margin-bottom: 0;
