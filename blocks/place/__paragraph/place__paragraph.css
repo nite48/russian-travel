@@ -4,13 +4,15 @@
   font-weight: normal;
   line-height: 163%;
   color: #FFFFFF;
-  font-family: 'Inter', sans-serif; 
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 0;
   
 
 }
 .place__paragraph:first-of-type{
   margin-top: 0;
 }
+
 
 @media screen and (max-width: 425px){
   .place__paragraph{

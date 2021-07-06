@@ -15,21 +15,3 @@
 .place__link:hover{
   opacity: .8;
 }
-
-@keyframes getIn {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.5;
-  }
-}
-
-@keyframes getOut {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
-}
