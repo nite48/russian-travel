@@ -2,11 +2,11 @@
   align-self: end;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
   .place__website{
     width: 288px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 16px;
+    margin-left: 16px;
   }
 }
 
