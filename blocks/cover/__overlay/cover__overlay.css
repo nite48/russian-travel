@@ -1,6 +1,6 @@
 .cover__overlay {
   width: 100%;
-  background: rgba(42, 44, 47, 0.4);
+  background: rgba(42, 44, 47, 0.3);
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -9,24 +9,15 @@
 }
 
 .cover__overlay:hover {
-  animation: turnOn 2s ease-in-out 1s;
+  animation: turnOn .5s ease-in-out 0s;
   animation-fill-mode: forwards;
 }
 
 @keyframes turnOn {
   from {
-    background: rgba(42, 44, 47, 0.4);
+    background: rgba(42, 44, 47, 0.3);
   }
   to {
-    background: rgba(42, 44, 47, 0.9);
-  }
-}
-
-@keyframes turnOff {
-  from {
-    background: rgba(42, 44, 47, 0.9);
-  }
-  to {
-    background: rgba(42, 44, 47, 0.4);
+    background: rgba(42, 44, 47, 0.8);
   }
 }

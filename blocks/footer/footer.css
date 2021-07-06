@@ -1,15 +1,14 @@
 .footer{
+  position: relative;
   display: flex;
   align-items: flex-start;
-  position: relative;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   
 }
 
 
 @media screen and (max-width: 768px){
   .footer{
-    margin: 0;
     margin-top: 64px;
     margin-left: 16px;
     margin-right: 16px;
@@ -24,16 +23,15 @@
     justify-content: space-between;
     flex-direction: row;
     margin-top: 88px;
-    padding-bottom: 24px;
-    
-    
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 0;
   } 
 }
 
 @media screen and (min-width: 1024px){
   .footer{
     margin-top: 92px;
-    padding-bottom: 24px;
     margin-left: 48px;
     margin-right: 48px;
   } 

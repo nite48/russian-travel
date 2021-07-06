@@ -1,12 +1,12 @@
 .photo-grid__item{
-  /*border: 1px solid red;*/
+  object-fit: cover;
   
 }
 
 
 @media screen and (max-width: 768px){
   .photo-grid__item{
-    max-width: 288px;
+    width: 288px;
     height: 216px;
 
   }

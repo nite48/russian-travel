@@ -2,12 +2,11 @@
 .header__lang-link{
   color:#FFFFFF;
   width: 30px;
-  height: 28px;
-  font-size: 1.5rem;
   line-height: 1.75rem;
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   margin-top: auto;
+  transition: opacity 0.5s;
 
 
   
@@ -18,27 +17,9 @@
 }
 
 .header__lang-link:hover{
-  animation: getIn 1s ease-in-out 0s;
-  animation-fill-mode: forwards;
+  opacity: .8;
 }
 
-@keyframes getIn {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.5;
-  }
-}
-
-@keyframes getOut {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 
 

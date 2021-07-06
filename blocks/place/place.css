@@ -5,13 +5,13 @@
 .place:last-child{
   margin-bottom: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
   .place{
     margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) {
   .place{
     margin-bottom: 64px;
   }
